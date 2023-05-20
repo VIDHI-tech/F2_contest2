@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>contest_may2</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <p>Filter ui cards via their profession.</p><br><br>
+
+  
+  <select id="profession">
+    <option value="">profession</option>
+    <option value="developer">Developer</option>
+    <option value="admin">Admin</option>
+  </select><br><br>
+  <div id="userList"></div><br><br>
+  <button  id="btn" onclick="filterUsers()">Filter</button><br><br>
+
+ 
+ 
+
+  <h3>Add a new User</h3><br>
+  
+  <input type="text" id="nameInput" class="item">
+  <input class="item" id="newProfession">    
+  <input class="item" type="text" id="ageInput" ><br><br>
+  <button id="btn" onclick="addUser()">Add User</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
